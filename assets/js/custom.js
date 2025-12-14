@@ -255,6 +255,12 @@ $(window).scroll(function(){
     if(wScroll >= $(".design_box.box3 .img_container2").offset().top - $(window).height()/2){
         design.eq(2).addClass("show");
     }
+    if(wScroll >= $(".design_box.box4 .img_container2").offset().top - $(window).height()/2){
+        design.eq(3).addClass("show");
+    }
+    if(wScroll >= $(".design_box.box5 .img_container2").offset().top - $(window).height()/2){
+        design.eq(4).addClass("show");
+    }
 }); 
 
 
@@ -312,6 +318,12 @@ $(window).scroll(function(){
     }
     if(wScroll >= $(".design_box.box3 .img_container2").offset().top - $(window).height()/2){
         $(".design_box.box3 .img_container2").addClass("show");
+    }
+    if(wScroll >= $(".design_box.box4 .img_container2").offset().top - $(window).height()/2){
+        $(".design_box.box4 .img_container2").addClass("show");
+    }
+    if(wScroll >= $(".design_box.box5 .img_container2").offset().top - $(window).height()/2){
+        $(".design_box.box5 .img_container2").addClass("show");
     }
 });
 
