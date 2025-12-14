@@ -19,7 +19,7 @@ body.active {overflow: visible;}
 #about {height: 3400px; background: url(../img/bg8.png) no-repeat center bottom; background-size: contain;}
 #tour {height: 1160px; background: url(../img/bg6.png) no-repeat center bottom; background-size: contain;}
 #coding {height: 3677px; background: url(../img/bg5.png) no-repeat center bottom; background-size: contain;}
-#design {height: 2200px; background: url(../img/bg3.png) no-repeat center bottom; background-size: contain;}
+#design {height: 5000px; background: url(../img/bg3.png) no-repeat center bottom; background-size: contain;}
 #contact {height: 1640px; background: url(../img/bg7.png) no-repeat center bottom; background-size: contain; position: relative; z-index: 9;}
 #footer {margin-top: -735px; position: relative; z-index: 10;}
 
@@ -313,6 +313,20 @@ body.active .header .big .title svg text {opacity: 1; font-size: 388px; stroke-w
 .coding .coding_box2 .coding_desc a {opacity: 0; transform: translateX(100px); transition: all .8s .8s ease; display: block;}
 .coding .coding_box2 .coding_desc.show a {opacity: 1; transform: none;}
 
+/* 제목 아래에 10px 간격 추가 */
+#resume .coding_desc h4 {
+    margin-bottom: 10px;
+}
+#resume .coding_desc span {
+    margin-top: 10px;
+    margin-bottom: -10px;
+	font-size: 1.2em;
+    font-weight: bold;
+}
+/* span 바로 아래에 있는 div의 상단 마진을 제거 */
+#resume .coding_desc > div {
+    margin-top: 0; /* 또는 padding-top: 0; 도 확인 */
+}
 
 /* design */
 .design {}
