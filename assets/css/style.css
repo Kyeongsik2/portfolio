@@ -353,7 +353,7 @@ body.active .header .big .title svg text {opacity: 1; font-size: 388px; stroke-w
 .design .design_box .design_desc {float: left; text-align: left; padding: 40px 0 0 50px;}
 .design .design_box .design_desc {float: left;}
 .design .title2 {width: 1226px; margin: 0 0 100px 138px; position: relative;}
-.design .title2 h1 {overflow: hidden; font-family: 'Yeseva One', cursive; line-height: 1.16; font-size: 140px; letter-spacing: -5.9px; color: #62615d; margin-top: -94px;}
+.design .title2 h1 {overflow: hidden; font-family: 'Yeseva One', cursive; line-height: 1.16; font-size: 130px; letter-spacing: -5.9px; color: #62615d; margin-top: -94px;}
 .design .title2:before {content: ''; position: absolute; top: 0; left: 0; width: 1226px; height: 2px; background: #8d8c87;}
 .design .title2:after {content: ''; position: absolute; bottom: 0; left: 0; width: 1226px; height: 2px; background: #8d8c87;}
 
