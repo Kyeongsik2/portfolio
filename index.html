@@ -108,7 +108,7 @@
         <section id="banner">
             <div class="container">
                 <div class="banner">
-                    <div class="letter ">      
+                    <div class="letter ">
                         <p class="rellax" data-rellax-speed="2.5">"Not just an Operator, but an Architect of Tomorrow."</p>
                         <strong class="rellax" data-rellax-speed="1.2">"단순 운영자를 넘어, 내일을 만드는 아키텍트."</strong>
                     </div>
@@ -148,13 +148,13 @@
                             <li>
                                 <h6>2022 ~ 2026</h6>
                                 <span>
-                                    네오디엑스
+                                    네오디엑스(그룹사 운영팀)
                                 </span>
                             </li>
                             <li>
                                 <h6>2026 ~</h6>
                                 <span>
-                                    고려신용정보
+                                    고려신용정보(디지털 혁신파트)
                                 </span>
                             </li>
                             <li>
@@ -222,7 +222,7 @@
 
                             <span>▶오픈소스 기반 통합 관제 시스템(Zabbix) 고도화</span>
                             <p>• 관제 사각지대 해소: 상용 솔루션의 한계를 극복하기 위해 오픈소스 Zabbix 기반 통합 관제 아키텍처를 설계 및 주도적 도입.</p>
-                            <p>• Full-Stack 모니터링 템플릿 설계: OS 리소스를 넘어 WEB/WAS(페이지 로그인/로그 패턴 매칭), DB(트랜잭션/세션/테이블스페이스)를 아우르는 커스텀 템플릿 제작으로 인프라 가시성 향상.</p>
+                            <p>• Full-Stack 모니터링 템플릿 설계: OS 리소스를 넘어 WEB/WAS(페이지 로그인/로그 패턴 매칭), DB(트랜잭션/세션/테이블스페이스), Backup(현황, 로그, Disk I/O) 를 아우르는 커스텀 템플릿 제작으로 인프라 가시성 향상.</p>
                             <p>• 지능형 경보 체계 구축: 복합 트리거 및 의존성 설정을 통해 장애 인지 시간 및 대응 시간을 단축.</p>
 
                             <span>▶인프라 자동화 및 보안 표준 수립</span>
@@ -230,8 +230,8 @@
                             <p>• 운영 생산성 혁신: 반복적인 Provisioning 및 시스템 하드닝 업무를 스크립트화하여 수동 작업 시 발생하는 휴먼 에러를 제거하고 Ansible을 활용하여 업무 효율성 극대화.</p>
 
                             <span>▶딥다이브 트러블슈팅 및 성능 최적화</span>
-                            <p>• 근본 원인 분석(RCA): 장애 발생 시 커널 로그, 스택 트레이스, DB Log 분석을 통해 근본 원인을 파악하고 재발 방지 자동화 로직 구현.</p>
-                            <p>• 시스템 최적화: PostgreSQL(EDB), Tibero 등 DB와 미들웨어(JBoss/Tomcat) 간의 성능 병목 지점을 분석하여 커널 파라미터 및 인스턴스 최적화 수행.</p>
+                            <p>• 근본 원인 분석(RCA): 장애 발생 시 커널 로그, 스택 트레이스, Log 분석을 통해 근본 원인을 파악하고 재발 방지 자동화 로직 구현.</p>
+                            <p>• 시스템 최적화: PostgreSQL(EDB), Mysql 등 DB와 미들웨어(JBoss/Tomcat) 간의 성능 병목 지점을 분석하여 커널 파라미터 및 인스턴스 최적화 수행.</p>
 
                             <span>▶기술 자문 및 유기적 협업</span>
                             <p>• 기술 파트너십: 개발 부서의 서비스 배포(SR) 요청에 대해 단순 지원을 넘어, 인프라 아키텍처 설계 단계부터 기술 자문을 제공하여 안정적인 서비스 지원.</p>
@@ -287,7 +287,7 @@
 
                                 <span>▶Weakness</span>
                                 <p>• [완벽을 향한 집요함]</p>
-                                <p>강한 성취욕으로 스스로에게 높은 기준을 부여하여 때로는 업무 부하를 자초하기도 합니다. 하지만 이러한 집요함은 인프라 전 계층($OS$, $WEB/WAS$, $DB$)을 깊이 있게 파고들게 했으며, 어떤 복잡한 환경에서도 해답을 찾아내는 독보적인 트러블슈팅 역량의 원동력이 되었습니다.</p>
+                                <p>강한 성취욕으로 스스로에게 높은 기준을 부여하여 때로는 업무 부하를 자초하기도 합니다. 하지만 이러한 집요함은 인프라 전 계층(OS, WEB/WAS, DB, Backup)을 깊이 있게 파고들게 했으며, 어떤 복잡한 환경에서도 해답을 찾아내는 독보적인 트러블슈팅 역량의 원동력이 되었습니다.</p>
                             <!--
                             <div class="cont">
                             <p>• 포스코 인터내셔널 DWM Teams (VMware)</p>
@@ -405,13 +405,13 @@
                         <h1>Deliverables</h1>   
                     </div>
                     <div class="design_box clearfix box1">
+                            <h4>Monitoring & Dashboard</h4>
                         <div class="design_img img_container2">
                             <img src="assets/img/zabbix.png" alt="Design Image"> 
                         </div>
                         <div class="design_desc">
-                            <h4>Monitoring & Dashboard</h4>
                             <div>
-                                오픈소스 Zabbix를 고도화하여 인프라 전 계층(OS/WAS/DB)에 대한 실시간 관제 체계 구축 및 지능형 알림(Trigger) 설계.
+                                오픈소스 Zabbix를 고도화(UserParameter, Shell Script 활용)하여 인프라 전 계층(OS/WAS/DB/Backup)에 대한 실시간 관제 체계 구축 및 지능형 알림(Trigger) 설계.
                             </div>
                         </div>
                     </div> 
@@ -423,6 +423,7 @@
                             <h4>Zabbix Report</h4>
                             <div>
                                 PHP와 Zabbix API/DB를 연동하여 가용성 및 자원 사용률 데이터를 자동 추출하고, 인프라 맞춤형 리포팅 도구 개발.
+                                부하를 줄이기 위해 30일 이내 데이터는 History, 30일 이후 데이터는 Trends로 관리
                             </div>
                         </div>
                     </div>
@@ -433,7 +434,7 @@
                         <div class="design_desc">
                             <h4>보안 점검 스크립트 결과</h4>
                             <div>
-                                OS 하드닝 가이드 기반의 보안 취약점 점검 스크립트 개발. <strong>(포스코 그룹사 보안 점검 표준 도구 채택)</strong>
+                                OS 하드닝 가이드 기반의 보안 취약점 점검 스크립트 개발 <strong>(포스코 그룹사 보안 점검 표준 도구 채택)</strong>
                             </div>
                         </div>
                     </div>
