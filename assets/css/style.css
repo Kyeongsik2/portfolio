@@ -351,8 +351,8 @@ body.active .header .big .title svg text {opacity: 1; font-size: 388px; stroke-w
 .design .design_box .design_img {float: left;}
 .design .design_box .design_desc {color: #6b6b6b; float: left;}
 .design .design_desc h4 {font-size: 36px; width: 575px; font-family: 'Playfair Display', serif; letter-spacing: -0.7px;}
-.design .design_desc div {width: 750px;  font-family: 'Iropke Batang', serif; font-size: 18px; line-height: 2; letter-spacing: -0.2px; margin: 20px 0 40px 0;}
-.design .design_box .design_desc {float: left; text-align: left; padding: 40px 0 0 50px;}
+.design .design_desc div {width: 850px;  font-family: 'Iropke Batang', serif; font-size: 18px; line-height: 2; letter-spacing: -0.2px; margin: 20px 0 40px 0;}
+.design .design_box .design_desc {float: left; text-align: left; padding: 50px 0 -15px 50px;}
 .design .design_box .design_desc {float: left;}
 .design .title2 {width: 1226px; margin: 0 0 100px 138px; position: relative;}
 .design .title2 h1 {overflow: hidden; font-family: 'Yeseva One', cursive; line-height: 1.16; font-size: 130px; letter-spacing: -5.9px; color: #62615d; margin-top: -94px;}
