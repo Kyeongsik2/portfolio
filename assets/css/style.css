@@ -291,8 +291,8 @@ body.active .header .big .title svg text {opacity: 1; font-size: 388px; stroke-w
 .coding .coding_box1 {height: 770px;}
 .coding .coding_box2.height {height: 770px;}
 .coding .coding_desc { color: #6b6b6b; overflow: hidden;}
-.coding .coding_desc h4 {font-size: 36px; width: 525px; font-family: 'Playfair Display', serif;letter-spacing: -0.7px; }
-.coding .coding_desc div {width: 525px;  font-family: 'Iropke Batang', serif;font-size: 18px; line-height: 2; letter-spacing: -0.2px;margin: 40px 0 50px 0;}
+.coding .coding_desc h4 {font-size: 36px; width: 575px; font-family: 'Playfair Display', serif;letter-spacing: -0.7px; }
+.coding .coding_desc div {width: 615px;  font-family: 'Iropke Batang', serif;font-size: 17px; line-height: 2; letter-spacing: -0.2px;margin: 40px 0 50px 0;}
 .coding .coding_box1 .coding_desc {float: right; text-align: right; padding: 40px 50px 0 0;}
 .coding .coding_box1 .coding_img {float: right;}
 .coding .coding_box2 .coding_desc {float: left; text-align: left; padding: 40px 0 0 50px;}
@@ -323,6 +323,8 @@ body.active .header .big .title svg text {opacity: 1; font-size: 388px; stroke-w
 .coding .coding_desc.show h4 {opacity: 1; transform: none;}
 .coding .coding_desc div {opacity: 0; transform: translateY(50px); transition: all 1s .4s ease;}
 .coding .coding_desc.show div {opacity: 1; transform: none;}
+.coding .coding_desc span {opacity: 0; transform: translateY(50px); transition: all 1s .4s ease;}
+.coding .coding_desc.show span {opacity: 1; transform: none;}
 .coding .coding_box1 .coding_desc a {opacity: 0; transform: translateX(-100px); transition: all .8s .8s ease; display: block;}
 .coding .coding_box1 .coding_desc.show a {opacity: 1; transform: none;}
 .coding .coding_box2 .coding_desc a {opacity: 0; transform: translateX(100px); transition: all .8s .8s ease; display: block;}
@@ -348,8 +350,8 @@ body.active .header .big .title svg text {opacity: 1; font-size: 388px; stroke-w
 .design .design_box {height: 555px; margin-left: 138px; padding-top: 50px;}
 .design .design_box .design_img {float: left;}
 .design .design_box .design_desc {color: #6b6b6b; float: left;}
-.design .design_desc h4 {font-size: 36px; width: 525px; font-family: 'Playfair Display', serif; letter-spacing: -0.7px;}
-.design .design_desc div {width: 690px;  font-family: 'Iropke Batang', serif; font-size: 18px; line-height: 2; letter-spacing: -0.2px; margin: 40px 0 50px 0;}
+.design .design_desc h4 {font-size: 36px; width: 575px; font-family: 'Playfair Display', serif; letter-spacing: -0.7px;}
+.design .design_desc div {width: 720px;  font-family: 'Iropke Batang', serif; font-size: 18px; line-height: 2; letter-spacing: -0.2px; margin: 40px 0 50px 0;}
 .design .design_box .design_desc {float: left; text-align: left; padding: 40px 0 0 50px;}
 .design .design_box .design_desc {float: left;}
 .design .title2 {width: 1226px; margin: 0 0 100px 138px; position: relative;}
