@@ -292,7 +292,7 @@ body.active .header .big .title svg text {opacity: 1; font-size: 388px; stroke-w
 .coding .coding_box2.height {height: 770px;}
 .coding .coding_desc { color: #6b6b6b; overflow: hidden;}
 .coding .coding_desc h4 {font-size: 36px; width: 575px; font-family: 'Playfair Display', serif;letter-spacing: -0.7px; }
-.coding .coding_desc div {width: 695px;  font-family: 'Iropke Batang', serif;font-size: 17px; line-height: 2; letter-spacing: -0.2px;margin: 40px 0 50px 0;}
+.coding .coding_desc div {width: 695px;  font-family: 'Iropke Batang', serif;font-size: 18px; line-height: 2; letter-spacing: -0.2px;margin: 40px 0 50px 0;}
 .coding .coding_box1 .coding_desc {float: right; text-align: right; padding: 40px 50px 0 0;}
 .coding .coding_box1 .coding_img {float: right;}
 .coding .coding_box2 .coding_desc {float: left; text-align: left; padding: 40px 0 0 50px;}
