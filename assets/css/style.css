@@ -149,7 +149,7 @@ body.active .header .big .title svg text {opacity: 1; font-size: 388px; stroke-w
 .about .sentence.sent4:before {content: ''; position: absolute; bottom: -30px; left: 0; width: 675px; height: 2px; background: #8d8c87;}
 
 .about .sentence p { font-family: 'Playfair Display', serif; }
-.about div .cont {width: 509px; font-family: 'Iropke Batang', serif; font-size: 18px; line-height: 2; letter-spacing: -0.2px; color: #6b6b6b; margin-left: 414px;}
+.about div .cont {width: 670px; font-family: 'Iropke Batang', serif; font-size: 18px; line-height: 2; letter-spacing: -0.2px; color: #6b6b6b; margin-left: 284px;}
 .about .article1 {margin: 45px 0 80px 0; }
 .about .article2 {position: relative;}
 .about .article2 .desc {position: absolute; left: 964px; bottom: -47px;  color: #b4b4b4; width: 284px;}
@@ -163,7 +163,7 @@ body.active .header .big .title svg text {opacity: 1; font-size: 388px; stroke-w
 .about .article4 img {margin: 80px 0 0 138px; }
 
 .about div .cont p {
-    margin-bottom: 5px; /* 수치를 조절하며 원하는 간격을 맞추세요 */
+    margin-bottom: 5px; /* 간격 */
 }
 /* 마지막 문장 아래에는 여백이 필요 없을 경우 */
 .about div .cont p:last-child {
