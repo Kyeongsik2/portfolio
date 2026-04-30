@@ -102,76 +102,76 @@ $(".contact .title1 h1").html(text10);
 $(window).scroll(function(){
     var wScroll = $(this).scrollTop();
 
-    if(wScroll >= aboutTitle.offset().top - $(window).height()/2){
+    if(wScroll >= aboutTitle.offset().top - $(window).height()/1){
         aboutTitle.addClass("show");
     }
-    if(wScroll >= tourTitle2.offset().top - $(window).height()/2){
+    if(wScroll >= tourTitle2.offset().top - $(window).height()/1){
         tourTitle2.addClass("show");
     }
-    if(wScroll >= $(".coding .title2").offset().top - $(window).height()/2){
+    if(wScroll >= $(".coding .title2").offset().top - $(window).height()/1){
         $(".coding .title2").addClass("show");
     }
-    if(wScroll >= $(".design .title2").offset().top - $(window).height()/2){
+    if(wScroll >= $(".design .title2").offset().top - $(window).height()/1){
         $(".design .title2").addClass("show");
     }
-    if(wScroll >= cont.eq(0).offset().top - $(window).height()/2){
+    if(wScroll >= cont.eq(0).offset().top - $(window).height()/1){
         cont.eq(0).addClass("show");
     }
-    if(wScroll >= cont.eq(1).offset().top - $(window).height()/2){
+    if(wScroll >= cont.eq(1).offset().top - $(window).height()/1){
         cont.eq(1).addClass("show");
     }
-    if(wScroll >= $(".article1 .sentence").offset().top - $(window).height()/2){
+    if(wScroll >= $(".article1 .sentence").offset().top - $(window).height()/1){
         $(".article1 .sentence").addClass("show");
     }
-    if(wScroll >= cont.eq(2).offset().top - $(window).height()/2){
+    if(wScroll >= cont.eq(2).offset().top - $(window).height()/1){
         cont.eq(2).addClass("show");
     }
-    if(wScroll >= $(".article2 .scroll3").offset().top - $(window).height()/3){
+    if(wScroll >= $(".article2 .scroll3").offset().top - $(window).height()/1.5){
         $(".article2 .scroll3").addClass("show");
     }
-    if(wScroll >= $(".article2 .pax_text").offset().top - $(window).height()/1){
+    if(wScroll >= $(".article2 .pax_text").offset().top - $(window).height()/0.5){
         $(".article2 .pax_text").addClass("show");
     }
-    if(wScroll >= $(".article2 .desc").offset().top - $(window).height()/2){
+    if(wScroll >= $(".article2 .desc").offset().top - $(window).height()/1){
         $(".article2 .desc").addClass("show");
     }
-    if(wScroll >= $(".article2 .desc2").offset().top - $(window).height()/2){
+    if(wScroll >= $(".article2 .desc2").offset().top - $(window).height()/1){
         $(".article2 .desc2").addClass("show");
     }
-    if(wScroll >= cont.eq(3).offset().top - $(window).height()/3){
+    if(wScroll >= cont.eq(3).offset().top - $(window).height()/1.5){
         cont.eq(3).addClass("show");
     }
-    if(wScroll >= cont.eq(4).offset().top - $(window).height()/2){
+    if(wScroll >= cont.eq(4).offset().top - $(window).height()/1){
         cont.eq(4).addClass("show");
     }
-    if(wScroll >= cont.eq(5).offset().top - $(window).height()/2){
+    if(wScroll >= cont.eq(5).offset().top - $(window).height()/1){
         cont.eq(5).addClass("show");
     }
-    if(wScroll >= cont.eq(6).offset().top - $(window).height()/2){
+    if(wScroll >= cont.eq(6).offset().top - $(window).height()/1){
         cont.eq(6).addClass("show");
     }
-    if(wScroll >= cont.eq(7).offset().top - $(window).height()/2){
+    if(wScroll >= cont.eq(7).offset().top - $(window).height()/1){
         cont.eq(7).addClass("show");
     }
-    if(wScroll >= cont.eq(8).offset().top - $(window).height()/2){
+    if(wScroll >= cont.eq(8).offset().top - $(window).height()/1){
         cont.eq(8).addClass("show");
     }
-    if(wScroll >= $(".article4 .sentence").offset().top - $(window).height()/2){
+    if(wScroll >= $(".article4 .sentence").offset().top - $(window).height()/1){
         $(".article4 .sentence").addClass("show");
     }    
-    if(wScroll >= $(".article4 .artc4_img").offset().top - $(window).height()/3){
+    if(wScroll >= $(".article4 .artc4_img").offset().top - $(window).height()/1.5){
         $(".article4 .artc4_img").addClass("show");
     }  
-    if(wScroll >= $(".contact .title1").offset().top - $(window).height()/2){
+    if(wScroll >= $(".contact .title1").offset().top - $(window).height()/1){
         $(".contact .title1").addClass("show");
     }
-    if(wScroll >= $(".contact .infor").offset().top - $(window).height()/2){
+    if(wScroll >= $(".contact .infor").offset().top - $(window).height()/1){
         $(".contact .infor").addClass("show");
     }
-    if(wScroll >= $(".contact .profile").offset().top - $(window).height()/2){
+    if(wScroll >= $(".contact .profile").offset().top - $(window).height()/1){
         $(".contact .profile").addClass("show");
     }
-    if(wScroll >= $(".footer").offset().top - $(window).height()/2){
+    if(wScroll >= $(".footer").offset().top - $(window).height()/1){
         $(".footer").addClass("show");
     }
 });
